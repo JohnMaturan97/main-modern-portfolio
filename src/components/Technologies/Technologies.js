@@ -1,54 +1,78 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import {
+  DiFirebase,
+  DiReact,
+  DiDigitalOcean,
+  DiCss3Full,
+  DiSass,
+  DiJsBadge,
+  DiHtml5,
+  DiJava,
+  DiNodejs,
+  DiMongodb,
+  DiMysql,
+  DiPostgresql,
+} from "react-icons/di";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
+// import {Tooltip } from "antd";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with wide ranges of JavaScript-based technologies〔MERN〕which
+      consists of front-end technologies, development languages, databases,
+      cache, client designs, servers, and version control systems.
     </SectionText>
     <List>
       <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
+        <picture></picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+
+          <DiHtml5 size="4rem"/><DiCss3Full size="4rem" /> <DiSass size="4rem"/>  <DiJsBadge size="4rem" />  <DiReact size="4rem" />    
+
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+    
+          <DiJava size="4rem"/>  <DiNodejs size="4rem"/>  <DiMongodb size="4rem"/>  <DiMysql size="4rem"/>  <DiPostgresql size="4rem"/>
+
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Microservices</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            ** Coming Soon ** <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
+
     <SectionDivider colorAlt />
   </Section>
 );
