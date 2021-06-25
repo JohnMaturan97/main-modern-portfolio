@@ -1,13 +1,13 @@
 export const projects = [
-  {
-    title: 'BornToCode Academy',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: 'https://media.giphy.com/media/b6EZlVdLbLI0pH647j/giphy.gif',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
+  // {
+  //   title: 'BornToCode Academy',
+  //   description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+  //     image: 'https://media.giphy.com/media/b6EZlVdLbLI0pH647j/giphy.gif',
+  //     tags: ['Mongo', 'Express', 'React', 'Node'],
+  //   source: 'https://google.com',
+  //   visit: 'https://google.com',
+  //   id: 0,
+  // },
   {
     title: 'Codeverse',
     description:"Social Sharing Platform built with MERN stack and Socket.io for real-time chat and notifications. Other Developtment Tools used : HTML5, CSS3, Redux, Hooks, Semantic-UI, and Infinite Scroll.",
