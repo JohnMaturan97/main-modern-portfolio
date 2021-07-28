@@ -84,7 +84,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2016, text: 'Enlisted to the United States Army', },
-  { year: 2019, text: 'Enrolled to the University of North Carolina at Charlotte', },
-  { year: 2019, text: 'Re-enlisted to join the Army National Guard', },
-  { year: 2021, text: 'Enrolled into Claim Academy Bootcamp', },
+  { year: 2019, text: 'Fall - Enrolled to the University of North Carolina at Charlotte', },
+  { year: 2019, text: 'Fall - Re-enlisted to join the Army National Guard', },
+  { year: 2021, text: 'Summer - Enrolled into Claim Academy Bootcamp', },
+  { year: 2021, text: 'Fall - Solution Analyst at Deloitte', },
 ];

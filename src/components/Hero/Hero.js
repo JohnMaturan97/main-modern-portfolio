@@ -14,9 +14,11 @@ const Hero = (props) => (
         <SectionText>
         Data-driven and a creator who is passionate about building the future of innovation through Computer Science.
         </SectionText>
-        <Button onClick={props.handleClick}>Resume 
-        <a href="/"></a>
+        
+        <Button onClick={props.handleClick}>
+        <a id="myLink" href="https://drive.google.com/file/d/1YCt1F8kvgeEo3pQEn7Is2iaAeIaTRtdd/view?usp=sharing" target="_blank" onclick="MyFunction();">Resume</a>
         </Button>
+        
       </LeftSection>
     </Section>
   </>

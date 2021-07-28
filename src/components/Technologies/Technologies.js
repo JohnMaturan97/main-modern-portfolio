@@ -65,7 +65,7 @@ const Technologies = () => (
         <picture>
         </picture>
         <ListContainer>
-          <ListTitle>Microservices</ListTitle>
+          <ListTitle>Cloud Computing</ListTitle>
           <ListParagraph>
             ** Coming Soon ** <br />
           </ListParagraph>
