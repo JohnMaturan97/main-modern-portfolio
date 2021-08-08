@@ -38,7 +38,7 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/john-maturan/" target="_blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://john-maturan-pholio.netlify.app/" target="_blank">
+        <SocialIcons href="https://www.instagram.com/borntocode101/" target="_blank">
           <AiFillInstagram size="3rem"/>
         </SocialIcons>
       </Div3>
