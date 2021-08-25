@@ -33,9 +33,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with wide ranges of JavaScript-based technologies〔MERN〕which
-      consists of front-end technologies, development languages, databases,
-      cache, client designs, servers, and version control systems.
+      I've worked with a wide range of Java and JavaScript-based technologies that consisted of front-end technologies, development languages, databases, cache, client designs, servers, test-driven development, behavior-driven development, and version control systems.
     </SectionText>
     <List>
       <ListItem>
