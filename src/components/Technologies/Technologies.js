@@ -63,9 +63,9 @@ const Technologies = () => (
         <picture>
         </picture>
         <ListContainer>
-          <ListTitle> Cloud Native Computing</ListTitle>
+          <ListTitle>Cloud Engineering</ListTitle>
           <ListParagraph>
-            ** AWS Ceritifications = Coming Soon! ** <br />
+            ** AWS Ceritifications ** <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
